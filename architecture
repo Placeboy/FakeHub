@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T01:23:18.044Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="S-Wws1r25cb9FmNn1myQ" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-25T01:23:25.057Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="5Mpzu8tfqGdO9KMM5CUM" version="18.1.2" type="github">
   <diagram id="A-Fklpi1MD4yL5sBYjJQ" name="Page-1">
     <mxGraphModel dx="1550" dy="1282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gLHAoLvfhU_PLy0aobL0-65" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;设备外设状态信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=28;fillColor=#FFFFFF;strokeColor=#000000;" parent="gLHAoLvfhU_PLy0aobL0-10" vertex="1">
-          <mxGeometry x="65" y="400" width="150" height="80" as="geometry" />
+          <mxGeometry x="65" y="390" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gLHAoLvfhU_PLy0aobL0-68" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;更新用户界面&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=28;fillColor=#FFFFFF;strokeColor=#000000;" parent="gLHAoLvfhU_PLy0aobL0-10" vertex="1">
           <mxGeometry x="65" y="530" width="150" height="80" as="geometry" />
