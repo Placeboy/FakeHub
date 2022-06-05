@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-05T12:10:18.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="-N3-6jLlCLkp2Ykqg1wM" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-05T12:15:45.341Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="OPFttfIQKkHtffhKCpVx" version="18.1.3" type="github">
   <diagram id="A-Fklpi1MD4yL5sBYjJQ" name="Page-1">
-    <mxGraphModel dx="2519" dy="1713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1559" dy="1241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,7 +99,7 @@
         <mxCell id="gLHAoLvfhU_PLy0aobL0-26" value="&lt;span style=&quot;font-size: 24px&quot;&gt;设备输出&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;shadow=0;" parent="gLHAoLvfhU_PLy0aobL0-24" vertex="1">
           <mxGeometry x="80" y="670" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gLHAoLvfhU_PLy0aobL0-29" value="&lt;span style=&quot;font-size: 36px;&quot;&gt;数据交互处理服务&lt;/span&gt;" style="swimlane;html=1;startSize=60;" parent="gLHAoLvfhU_PLy0aobL0-1" vertex="1">
+        <mxCell id="gLHAoLvfhU_PLy0aobL0-29" value="&lt;span style=&quot;font-size: 36px;&quot;&gt;FakeHub&lt;/span&gt;" style="swimlane;html=1;startSize=60;" parent="gLHAoLvfhU_PLy0aobL0-1" vertex="1">
           <mxGeometry x="1040" y="80" width="490" height="1130" as="geometry" />
         </mxCell>
         <mxCell id="gLHAoLvfhU_PLy0aobL0-31" value="&lt;span style=&quot;font-size: 24px&quot;&gt;传感数据&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="gLHAoLvfhU_PLy0aobL0-29" vertex="1">
