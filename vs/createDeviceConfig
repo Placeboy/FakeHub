@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T07:07:38.913Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="wUpNfkVphzNtEANs7jey" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T07:10:59.553Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="H4ZO3Tjga4lQspOeTbWC" version="19.0.0" type="github">
   <diagram id="7c71pjX9tVX58GfIgjSh" name="Page-1">
     <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
         <mxCell id="qw_FBkSjUg_ASEtWn8aN-16" value="总等待时长小于1分钟？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="260" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="qw_FBkSjUg_ASEtWn8aN-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qw_FBkSjUg_ASEtWn8aN-21" value="向调用者返回分配设备失败的信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
