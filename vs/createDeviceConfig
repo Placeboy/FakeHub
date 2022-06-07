@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T07:05:24.060Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="Nf0w_EAbZKVoOWoLidFr" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T07:07:38.913Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="wUpNfkVphzNtEANs7jey" version="19.0.0" type="github">
   <diagram id="7c71pjX9tVX58GfIgjSh" name="Page-1">
     <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,17 +6,17 @@
         <mxCell id="1" parent="0" />
         <mxCell id="KsNwsYtCXscbFyZMyEOE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KsNwsYtCXscbFyZMyEOE-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="280" as="targetPoint" />
+            <mxPoint x="260" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KsNwsYtCXscbFyZMyEOE-1" value="传入groupid、taskindex、传感模型参数及时间戳" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KsNwsYtCXscbFyZMyEOE-9" value="向调用者返回创建成功的信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="670" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KsNwsYtCXscbFyZMyEOE-11" value="将创建失败的错误信息返回给调用者" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="580" y="555" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="535" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qw_FBkSjUg_ASEtWn8aN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qw_FBkSjUg_ASEtWn8aN-1" target="qw_FBkSjUg_ASEtWn8aN-3">
           <mxGeometry relative="1" as="geometry" />
@@ -26,14 +26,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="qw_FBkSjUg_ASEtWn8aN-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qw_FBkSjUg_ASEtWn8aN-1" target="qw_FBkSjUg_ASEtWn8aN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qw_FBkSjUg_ASEtWn8aN-20" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qw_FBkSjUg_ASEtWn8aN-17">
+          <mxGeometry x="-0.15" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="qw_FBkSjUg_ASEtWn8aN-1" value="Redis数据库中是否能&lt;br&gt;&amp;nbsp; 查询到对应设备信息？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="280" width="140" height="110" as="geometry" />
+          <mxGeometry x="190" y="260" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="qw_FBkSjUg_ASEtWn8aN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qw_FBkSjUg_ASEtWn8aN-3" target="qw_FBkSjUg_ASEtWn8aN-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qw_FBkSjUg_ASEtWn8aN-3" value="调用虚拟传感后端服务的接口创建设备传感模型配置信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qw_FBkSjUg_ASEtWn8aN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qw_FBkSjUg_ASEtWn8aN-6" target="KsNwsYtCXscbFyZMyEOE-11">
           <mxGeometry relative="1" as="geometry" />
@@ -52,7 +60,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qw_FBkSjUg_ASEtWn8aN-6" value="是否调用成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="545" width="120" height="80" as="geometry" />
+          <mxGeometry x="200" y="525" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qw_FBkSjUg_ASEtWn8aN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qw_FBkSjUg_ASEtWn8aN-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qw_FBkSjUg_ASEtWn8aN-19" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qw_FBkSjUg_ASEtWn8aN-18">
+          <mxGeometry x="0.032" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qw_FBkSjUg_ASEtWn8aN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qw_FBkSjUg_ASEtWn8aN-16" target="qw_FBkSjUg_ASEtWn8aN-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qw_FBkSjUg_ASEtWn8aN-23" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qw_FBkSjUg_ASEtWn8aN-22">
+          <mxGeometry x="-0.16" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qw_FBkSjUg_ASEtWn8aN-16" value="总等待时长小于1分钟？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="260" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qw_FBkSjUg_ASEtWn8aN-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
