@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T12:48:49.874Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="0A_giYiECeW3M-zitV56" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T12:49:01.633Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="fVR7Mno21n44WyhSRPtg" version="19.0.2" type="github">
   <diagram id="JRJc3_74Ca2PIHP48DeW" name="Page-1">
     <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
         <mxCell id="zA51qtXnM2RPCDVZ_VpC-13" value="对数据进行加密，加密等级与原请求一致" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="380" y="650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zA51qtXnM2RPCDVZ_VpC-15" value="返回加密后的字符串" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zA51qtXnM2RPCDVZ_VpC-15" value="返回加密后的数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zA51qtXnM2RPCDVZ_VpC-17" value="返回解密后的字符串" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
