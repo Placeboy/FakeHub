@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T05:00:23.476Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="FFrgsd-sEFDl5d-0uPq7" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T05:00:57.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="c6m_JCSVGFZHCT7oY1KQ" version="19.0.0" type="github">
   <diagram id="jy43bRtdGpiRiE9njL4l" name="Page-1">
     <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,6 +50,11 @@
         <mxCell id="42qTEGYEMk-W3ywDhIRt-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="42qTEGYEMk-W3ywDhIRt-9" target="42qTEGYEMk-W3ywDhIRt-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="42qTEGYEMk-W3ywDhIRt-28" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="42qTEGYEMk-W3ywDhIRt-26">
+          <mxGeometry x="-0.225" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="42qTEGYEMk-W3ywDhIRt-9" value="设备是否已就绪？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="490" width="140" height="80" as="geometry" />
         </mxCell>
@@ -74,8 +79,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="42qTEGYEMk-W3ywDhIRt-29" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="42qTEGYEMk-W3ywDhIRt-27">
+          <mxGeometry x="0.168" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="42qTEGYEMk-W3ywDhIRt-25" value="总等待时长小于20秒？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="490" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="42qTEGYEMk-W3ywDhIRt-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="42qTEGYEMk-W3ywDhIRt-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42qTEGYEMk-W3ywDhIRt-31" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="42qTEGYEMk-W3ywDhIRt-30">
+          <mxGeometry x="-0.16" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42qTEGYEMk-W3ywDhIRt-32" value="返回调用失败信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="620" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
