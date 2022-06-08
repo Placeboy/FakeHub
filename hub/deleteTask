@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T02:23:54.966Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="Bx1VTXIagpm2OTluMerF" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T02:26:15.347Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="uHO0o_WiOF0SSlf7IX_y" version="19.0.0" type="github">
   <diagram id="iq-bhMAvQjLMCch-K57o" name="Page-1">
     <mxGraphModel dx="1298" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,16 +10,23 @@
         <mxCell id="khS1-nH7nZKULc_y0hZ--4" value="&lt;span&gt;传入用户的&lt;/span&gt;&lt;span lang=&quot;EN-US&quot;&gt;token&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="khS1-nH7nZKULc_y0hZ--5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="khS1-nH7nZKULc_y0hZ--6" target="khS1-nH7nZKULc_y0hZ--13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="khS1-nH7nZKULc_y0hZ--5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="khS1-nH7nZKULc_y0hZ--18" target="khS1-nH7nZKULc_y0hZ--16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="360" as="sourcePoint" />
+            <mxPoint x="370" y="420" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="khS1-nH7nZKULc_y0hZ--6" value="调用ldc模块发起与设备控制中心的连接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="khS1-nH7nZKULc_y0hZ--21" value="无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="khS1-nH7nZKULc_y0hZ--5">
+          <mxGeometry x="0.1" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="khS1-nH7nZKULc_y0hZ--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="1" source="khS1-nH7nZKULc_y0hZ--11" target="khS1-nH7nZKULc_y0hZ--6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="khS1-nH7nZKULc_y0hZ--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="khS1-nH7nZKULc_y0hZ--11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="370" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="khS1-nH7nZKULc_y0hZ--8" value="无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="khS1-nH7nZKULc_y0hZ--7">
+        <mxCell id="khS1-nH7nZKULc_y0hZ--8" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="khS1-nH7nZKULc_y0hZ--7">
           <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -37,17 +44,35 @@
         <mxCell id="khS1-nH7nZKULc_y0hZ--11" value="&lt;span style=&quot;&quot;&gt;有无任务正在运行？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="170" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="khS1-nH7nZKULc_y0hZ--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="1" source="khS1-nH7nZKULc_y0hZ--13" target="khS1-nH7nZKULc_y0hZ--16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="khS1-nH7nZKULc_y0hZ--13" value="更新用户token下的子任务数量" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="420" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="khS1-nH7nZKULc_y0hZ--16" value="返回接口调用成功的信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="khS1-nH7nZKULc_y0hZ--17" value="返回接口调用失败的提示信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="khS1-nH7nZKULc_y0hZ--25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="khS1-nH7nZKULc_y0hZ--18" target="khS1-nH7nZKULc_y0hZ--24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="khS1-nH7nZKULc_y0hZ--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="khS1-nH7nZKULc_y0hZ--24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="330" />
+              <mxPoint x="370" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khS1-nH7nZKULc_y0hZ--24" value="删除子任务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="khS1-nH7nZKULc_y0hZ--18" value="有无子任务？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="370" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="khS1-nH7nZKULc_y0hZ--27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;" edge="1" parent="1" target="khS1-nH7nZKULc_y0hZ--18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="360" as="sourcePoint" />
+            <mxPoint x="370" y="540" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
