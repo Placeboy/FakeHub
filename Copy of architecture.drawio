@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T02:54:49.300Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="vuLgI8oNJzrKjw7_E48v" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-15T02:55:30.514Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="8vxajAAH139tWxCHkkn1" version="19.0.3" type="github">
   <diagram id="A-Fklpi1MD4yL5sBYjJQ" name="Page-1">
-    <mxGraphModel dx="2596" dy="1410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1769" dy="1410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gLHAoLvfhU_PLy0aobL0-1" value="&lt;font style=&quot;font-size: 50px;&quot;&gt;系统架构&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=80;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="730" y="510" width="2480" height="1800" as="geometry">
+          <mxGeometry x="1070" y="550" width="1830" height="1750" as="geometry">
             <mxRectangle x="1040" width="60" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gLHAoLvfhU_PLy0aobL0-2" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;物联网设备&lt;/font&gt;" style="swimlane;html=1;startSize=60;" parent="gLHAoLvfhU_PLy0aobL0-1" vertex="1">
-          <mxGeometry y="80" width="440" height="1720" as="geometry">
+          <mxGeometry y="80" width="440" height="1670" as="geometry">
             <mxRectangle x="160" y="20" width="30" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -35,7 +35,7 @@
           <mxGeometry x="140" y="420" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gLHAoLvfhU_PLy0aobL0-10" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;客户端&lt;/font&gt;" style="swimlane;html=1;startSize=60;swimlaneLine=1;glass=0;shadow=0;arcSize=15;" parent="gLHAoLvfhU_PLy0aobL0-1" vertex="1">
-          <mxGeometry x="440" y="80" width="300" height="1720" as="geometry">
+          <mxGeometry x="440" y="80" width="300" height="1670" as="geometry">
             <mxRectangle x="160" y="20" width="30" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -89,7 +89,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gLHAoLvfhU_PLy0aobL0-24" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;物联网设备控制中心&lt;/font&gt;" style="swimlane;html=1;startSize=60;" parent="gLHAoLvfhU_PLy0aobL0-1" vertex="1">
-          <mxGeometry x="740" y="80" width="600" height="1720" as="geometry" />
+          <mxGeometry x="740" y="80" width="600" height="1670" as="geometry" />
         </mxCell>
         <mxCell id="gLHAoLvfhU_PLy0aobL0-25" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;仿真数据&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="gLHAoLvfhU_PLy0aobL0-24" vertex="1">
           <mxGeometry x="200" y="1470" width="140" height="80" as="geometry" />
@@ -109,7 +109,7 @@
           <mxGeometry x="190" y="420" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gLHAoLvfhU_PLy0aobL0-29" value="&lt;span style=&quot;text-align: start; font-family: 宋体;&quot;&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;数据仿真模块&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: medium; font-weight: 400; text-align: start;&quot;&gt;&lt;/span&gt;" style="swimlane;html=1;startSize=60;" parent="gLHAoLvfhU_PLy0aobL0-1" vertex="1">
-          <mxGeometry x="1340" y="80" width="490" height="1720" as="geometry" />
+          <mxGeometry x="1340" y="80" width="490" height="1670" as="geometry" />
         </mxCell>
         <mxCell id="gLHAoLvfhU_PLy0aobL0-31" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;仿真数据&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="gLHAoLvfhU_PLy0aobL0-29" vertex="1">
           <mxGeometry x="185" y="1470" width="140" height="80" as="geometry" />
@@ -130,6 +130,9 @@
         </mxCell>
         <mxCell id="gLHAoLvfhU_PLy0aobL0-62" value="&lt;span style=&quot;font-size: 24px&quot;&gt;设备外设状态信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="gLHAoLvfhU_PLy0aobL0-29" vertex="1">
           <mxGeometry x="185" y="1070" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5j4-Z1qM288EKarYTdAu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;strokeWidth=5;" edge="1" parent="gLHAoLvfhU_PLy0aobL0-29" source="dDn0zIui6dqxGOIMlOnd-3" target="dDn0zIui6dqxGOIMlOnd-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dDn0zIui6dqxGOIMlOnd-3" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;传感模型配置信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="gLHAoLvfhU_PLy0aobL0-29" vertex="1">
           <mxGeometry x="201" y="610" width="140" height="80" as="geometry" />
