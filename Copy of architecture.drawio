@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T02:50:32.248Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="QNmx5bGixcVxjP3mNuKp" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-15T02:51:01.802Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="kNRsP-sErf20glNTc9yQ" version="19.0.3" type="github">
   <diagram id="A-Fklpi1MD4yL5sBYjJQ" name="Page-1">
     <mxGraphModel dx="2596" dy="1410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,8 +17,13 @@
         <mxCell id="gLHAoLvfhU_PLy0aobL0-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;输出&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=default;strokeColor=default;" parent="gLHAoLvfhU_PLy0aobL0-2" vertex="1">
           <mxGeometry x="150" y="1180" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gLHAoLvfhU_PLy0aobL0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=28;fillColor=#d5e8d4;strokeColor=default;strokeWidth=5;" parent="gLHAoLvfhU_PLy0aobL0-2" source="gLHAoLvfhU_PLy0aobL0-5" target="gLHAoLvfhU_PLy0aobL0-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5j4-Z1qM288EKarYTdAu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;strokeWidth=5;" edge="1" parent="gLHAoLvfhU_PLy0aobL0-2" source="gLHAoLvfhU_PLy0aobL0-5" target="5j4-Z1qM288EKarYTdAu-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="1410" />
+              <mxPoint x="50" y="450" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="gLHAoLvfhU_PLy0aobL0-5" value="&lt;font style=&quot;font-size: 24px&quot;&gt;传感数据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="gLHAoLvfhU_PLy0aobL0-2" vertex="1">
           <mxGeometry x="150" y="1370" width="140" height="80" as="geometry" />
